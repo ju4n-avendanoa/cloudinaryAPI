@@ -1,4 +1,4 @@
-import express, { json } from "express";
+import express from "express";
 import morgan from "morgan";
 import productRouter from "./routes/products.routes.js";
 import cors from "cors";
