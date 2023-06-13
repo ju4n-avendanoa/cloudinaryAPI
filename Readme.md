@@ -15,7 +15,7 @@ Before running the CloudinaryAPI, make sure you have the following prerequisites
 To configure the CloudinaryAPI, you need to set the following environment variables:
 
 - `PORT`: The port number on which the server will run. The default value is `3000`.
-- `MONGODB_URI`: The MongoDB connection URI.
+- `MONGODB_URI`: The MongoDB connection URI (e.g., `mongodb://<username>:<password>@<host>:<port>/<database>`).
 - `CLOUDINARY_CLOUD_NAME`: Your Cloudinary cloud name.
 - `CLOUDINARY_API_KEY`: Your Cloudinary API key.
 - `CLOUDINARY_API_SECRET`: Your Cloudinary API secret.
